@@ -13,6 +13,10 @@ The MissingValuesGraph is supported on Python 3.7 and above. Older versions of P
 
 The MissingValuesGraph package is used in the pandas dataframes to find all the null values and display them in a graph with missing percentage
 
+Use the below import statement 
+
+    from MissingValuesGraph.MissValues import MissingValues
+    
 We need to have the object created for the class MissingValues
 
     df_miss = MissingValues(df)
